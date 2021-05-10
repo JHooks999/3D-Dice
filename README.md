@@ -1,16 +1,23 @@
-# Vintage-Snake
+# 3D Dice
 ***
 ## 05/09/2021
 ***
 ### By: Justin Hooks
 ## [Github](https://github.com/JHooks999/Vintage-Snake)
-## [Trello](https://trello.com/b/oOsh3P1r/javascript-vintage-snake)
+## [Trello](https://trello.com/b/aYpIMKoY/3d-dice)
 ***
 ## **Description**
-### **A browser based BlackJack Application**
+### **A browse based 3D Dice game, play aginst the computer and test your luck**
 ***
 ## Getting Started
 ### Fork and Clone this repository, the game will be playable in the browser.
+## The rules to the dice game Pig
+## Number of Players: 2 
+## A player scores the sum of the two dice thrown and gradually reaches a higher score as they continue to roll.
+## If a single number 1 is thrown on either die, the score for that whole turn is lost. However a double 1 counts as 25.
+## The first player to 100 wins unless a player scores more subsequently in the same round. This means that everyone in the game must have the same number of turns.
+
+ 
 ***
 ### **Technologies Used**
 * Javascript
@@ -23,4 +30,4 @@
 ### [ ] First Feature/Core Logic
 ***
 # Credits
-## [That Software Dude](https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript)
+## [GeeksforGeeks](https://www.geeksforgeeks.org/building-a-dice-game-using-javascript/)
