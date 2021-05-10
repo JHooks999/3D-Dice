@@ -7,7 +7,7 @@
 ## [Trello](https://trello.com/b/oOsh3P1r/javascript-vintage-snake)
 ***
 ## **Description**
-### **A classic snake game styled after the original mobile game play**
+### **A browser based BlackJack Application**
 ***
 ## Getting Started
 ### Fork and Clone this repository, the game will be playable in the browser.
@@ -21,3 +21,6 @@
 # Updates
 ### [X] Planning
 ### [ ] First Feature/Core Logic
+***
+# Credits
+## [That Software Dude](https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript)
