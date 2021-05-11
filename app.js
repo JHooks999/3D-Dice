@@ -24,3 +24,11 @@ function diceValue() {
     //roll dice and add diceRoll to roundScore
     //else if player chose hold switchPlayers
   }
+
+  function finalScore(){
+    //This will store the round score and add it to the global score
+    //playerScores[0] = 5
+    playerScores[currentPlayer] = roundScore
+    
+    
+    }
