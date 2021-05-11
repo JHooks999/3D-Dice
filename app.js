@@ -32,3 +32,12 @@ function diceValue() {
     
     
     }
+
+    function switchPlayers(){
+      if (currentPlayer === 0){
+          currentPlayer = 1
+      }else{
+        currentPlayer = 0
+      }
+      console.log(`Current player is ${currentPlayer}`)
+    }
