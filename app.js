@@ -41,3 +41,12 @@ function diceValue() {
       }
       console.log(`Current player is ${currentPlayer}`)
     }
+
+    function choseHold(){
+      //This function will set the players round score to zero and switch players
+      roundScore = 0;
+      diceRoll = 0;
+      console.log("You chose hold")
+      switchPlayers()
+    
+    }
