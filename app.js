@@ -50,3 +50,8 @@ function diceValue() {
       switchPlayers()
     
     }
+
+    
+// Event Listeners Here
+document.querySelector('.roll').addEventListener('click',diceValue)
+document.querySelector('.hold').addEventListener('click',choseHold)
