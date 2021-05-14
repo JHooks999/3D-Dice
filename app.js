@@ -4,12 +4,12 @@ let roundScore = 0
 let activePlayer = 0;
 let gameActive = true
 
-resetGame();
+
 //document.getElementById('score-0').innerHTML = 0;
 //document.getElementById('score-1').innerHTML = 0;
 //document.getElementById('current-0').innerHTML = 0;
 //document.getElementById('current-1').innerHTML = 0;
-
+resetGame()
 function diceValue(){
   //This function will generate the dice value of the currentPlayer
    // One dice goes up to 6
@@ -24,7 +24,7 @@ console.log(diceRoll)
   let img4 = document.getElementById('dice-4.png');
   let img5 = document.getElementById('dice-5.png');
   let img6 = document.getElementById('dice-6.png');
-//imgArr[i].style.dispaly = "none"
+//imgArr[i].style.display = "none"
   let imgArr = [img1,img2,img3,img4,img5,img6];
   console.log(img1);
   imgArr[0].style.display = "none";
@@ -84,8 +84,8 @@ if(diceRoll ==1 ){
       
       switchPlayers();
   }
-}
 
+}
 
 function updateScore(){
     scores[activePlayer] += roundScore;
@@ -102,7 +102,6 @@ function updateScore(){
   }
 }  
  
-
 function switchPlayers(){
   document.querySelector('.dice').style.display = 'none';
   activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
@@ -123,7 +122,7 @@ function checkWin(){
 }
 
 
-function resetGame(diceValue){
+function resetGame(){
   scores = [0,0];
   roundScore = 0
   activePlayer = 0;
@@ -145,6 +144,4 @@ function resetGame(diceValue){
 
 document.querySelector('.btn-roll').addEventListener('click',diceValue)
 document.querySelector('.btn-hold').addEventListener('click',updateScore)
-document.querySelector('btn.new').addEventListener('click', resetGame)
-
-  
+document.querySelector('.btn-new').addEventListener('click', resetGame)
