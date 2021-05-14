@@ -26,13 +26,15 @@ console.log(diceRoll)
   let img6 = document.getElementById('dice-6.png');
 //imgArr[i].style.display = "none"
   let imgArr = [img1,img2,img3,img4,img5,img6];
+  for (let i = 0; i <imgArr.length; i++)
+  imgArr[i].style.display = "none"
   console.log(img1);
-  imgArr[0].style.display = "none";
-  imgArr[1].style.display = "none";
-  imgArr[2].style.display = "none";
-  imgArr[3].style.display = "none";
-  imgArr[4].style.display = "none";
-  imgArr[5].style.display = "none";
+  //imgArr[0].style.display = "none";
+  //imgArr[1].style.display = "none";
+  //imgArr[2].style.display = "none";
+  //imgArr[3].style.display = "none";
+  //imgArr[4].style.display = "none";
+  //imgArr[5].style.display = "none";
 //try switch statement fix unnec spaces
   
 
