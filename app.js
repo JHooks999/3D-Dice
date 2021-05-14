@@ -4,40 +4,20 @@ let roundScore = 0
 let activePlayer = 0;
 let gameActive = true
 
-
-//document.getElementById('score-0').innerHTML = 0;
-//document.getElementById('score-1').innerHTML = 0;
-//document.getElementById('current-0').innerHTML = 0;
-//document.getElementById('current-1').innerHTML = 0;
 resetGame()
 function diceValue(){
-  //This function will generate the dice value of the currentPlayer
-   // One dice goes up to 6
-  
-  
 diceRoll = Math.floor( Math.random() * 6 ) + 1;
-console.log(diceRoll)
-//fix vars
+
+
   let img1 = document.getElementById('dice-1.png');
   let img2 = document.getElementById('dice-2.png');
   let img3 = document.getElementById('dice-3.png');
   let img4 = document.getElementById('dice-4.png');
   let img5 = document.getElementById('dice-5.png');
   let img6 = document.getElementById('dice-6.png');
-//imgArr[i].style.display = "none"
   let imgArr = [img1,img2,img3,img4,img5,img6];
   for (let i = 0; i <imgArr.length; i++)
   imgArr[i].style.display = "none"
-  console.log(img1);
-  //imgArr[0].style.display = "none";
-  //imgArr[1].style.display = "none";
-  //imgArr[2].style.display = "none";
-  //imgArr[3].style.display = "none";
-  //imgArr[4].style.display = "none";
-  //imgArr[5].style.display = "none";
-//try switch statement fix unnec spaces
-  
-
 
 if(diceRoll ==1 ){
      imgArr[0].style.display = "block";
