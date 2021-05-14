@@ -1,7 +1,40 @@
-.nav-links {
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-size-adjust: 50;
+body {
+margin: 0;
+padding: 0;
+background:#A6A6A6
 }
+
+conainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: transLateX(-50%) translateY(-50%)
+
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color:#E04E4F;
+  font-family:Lato;
+  font-weight: lighter;
+  font-size: 28px;
+  padding: 0 20px;
+
+
+
+
+
+}
+.link ::after {
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background:#F3F3F3;
+}
+
