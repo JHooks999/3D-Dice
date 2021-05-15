@@ -12,7 +12,7 @@ body {
   
   }
   
-  div {
+  .content {
     display: inline-block;
     text-decoration: none;
     display: inline-block;

@@ -7,8 +7,6 @@ let gameActive = true
 resetGame()
 function diceValue(){
 diceRoll = Math.floor( Math.random() * 6 ) + 1;
-
-
   let img1 = document.getElementById('dice-1.png');
   let img2 = document.getElementById('dice-2.png');
   let img3 = document.getElementById('dice-3.png');
@@ -22,52 +20,38 @@ diceRoll = Math.floor( Math.random() * 6 ) + 1;
 if(diceRoll ==1 ){
      imgArr[0].style.display = "block";
   
-  }
-  else if(diceRoll == 2){
+  }else if(diceRoll == 2){
 
     imgArr[1].style.display = "block";
     
-  }
-
-  else if(diceRoll == 3){
+  }else if(diceRoll == 3){
  
     imgArr[2].style.display = "block";
    
-  }
-
-  else if(diceRoll == 4){
+  }else if(diceRoll == 4){
    
     imgArr[3].style.display = "block";
   
-  }
-
-  else if(diceRoll == 5){
+  }else if(diceRoll == 5){
 
     imgArr[4].style.display = "block";
    
-  }
-
-  else {
+  }else {
   
 
     imgArr[5].style.display = "block";
 
 
-  } 
- 
-  if(diceRoll !== 1){
+  }if(diceRoll !== 1){
     roundScore += diceRoll;
     document.querySelector("#current-" + activePlayer).textContent = roundScore;  
 
   
 
-  }
-  else {
-      
+  }else {
       switchPlayers();
+    }
   }
-
-}
 
 function updateScore(){
     scores[activePlayer] += roundScore;
