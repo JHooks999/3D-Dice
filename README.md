@@ -3,7 +3,7 @@
 ## 05/09/2021
 ***
 ### By: Justin Hooks
-## [Github](https://github.com/JHooks999/Vintage-Snake)
+## [Github](https://github.com/JHooks999/3D-Dice)
 ## [Trello](https://trello.com/b/aYpIMKoY/3d-dice)
 ***
 ## **Description**
@@ -27,7 +27,9 @@
 ***
 # Updates
 ### [X] Planning
-### [ ] First Feature/Core Logic
+### [X] First Feature/Core Logic
+### [X] Roll Dice 
+### [X] Player vs Player
 ***
 # Credits
 ## [GeeksforGeeks](https://www.geeksforgeeks.org/building-a-dice-game-using-javascript/)
