@@ -33,3 +33,4 @@
 ***
 # Credits
 ## [GeeksforGeeks](https://www.geeksforgeeks.org/building-a-dice-game-using-javascript/)
+## [Google Font API]https://developers.google.com/fonts()
