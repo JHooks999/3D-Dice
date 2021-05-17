@@ -39,11 +39,11 @@ if(diceRoll ==1 ){
 function updateScore(){
 scores[activePlayer] += roundScore; 
 document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
- if (scores[activePlayer] >= 50) {
-   document.querySelector('#name-' + activePlayer).textContent = " Winner!";
-   document.querySelector('.dice').style.display = "none";
-   document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
-   document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
+if (scores[activePlayer] >= 50) {
+  document.querySelector('#name-' + activePlayer).textContent = " Winner!";
+  document.querySelector('.dice').style.display = "none";
+  document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
+  document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
   } else {
       switchPlayers();
   }
@@ -58,8 +58,8 @@ function switchPlayers(){
   document.querySelector('.player-1-panel').classList.toggle('active');
 }
 function checkWin(){
-  if (scores[activePlayer] >= 50) {
-    document.querySelector('#name-' + activePlayer).textContent = " Winner!";
+if (scores[activePlayer] >= 50) {
+   document.querySelector('#name-' + activePlayer).textContent = " Winner!";
   }else{
     switchPlayers()
   }
